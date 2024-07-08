@@ -1,4 +1,4 @@
-# git-tips-tricks
+# git-tips-and-tricks
 How to use git like a pro
 
 Getting started with Git
