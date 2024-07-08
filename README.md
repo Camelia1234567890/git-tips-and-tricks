@@ -1,52 +1,43 @@
 # git-tips-tricks
 How to use git like a pro
 
-
-
-Installing Git
-Available for Windows, IOS or Linux
-
-
+Getting started with Git
+1. Installation
+    - Installing Git on Windows, macOS, and Linux : https://git-scm.com/downloads
+2. Configuration
+    - git config: Set up your name and email for commits.
+Example: git config --global user.name "Your Name" and git config --global user.email "your.email@example.com"
+3. Basic Git Commands
 Your first git commands:
 git --version or git --v
-clear 
-*git config --global user.name "Camelia"
-*git config --global user.email "camelia@gmail.com"
-*git config user.name
-*git help config
+- git init: Initialize a new Git repository
+- git clone: Clone an existing repository
+- git status - See what untracked files you have
+- git add filename.extension - Add only the file you want to stage
+- git add: Stage all changes for the next commit
+- git commit: Commit staged changes
+- git log: Show commit logs
+4. Branching and Merging
+- git branch: List, create, or delete branches
+- git checkout: Switch branches
+- git merge: Merge a branch into the current branch
+5. Remote Repositories
+- git remote add: Add a remote repository
+- git fetch: Fetch changes from the remote
+- git pull: Fetch and merge changes
+- git push: Push changes to the remote repository
+6. Intermediate Git Commands
+- git stash: Temporarily save changes
+- git rebase: Reapply commits on top of another base tip
+7. Advanced Git Commands
+- git cherry-pick: Apply changes from specific commits
+- git revert: Revert changes from a commit
+- git reset: Undo commits and changes
 
-
-git clone repository
-
-Create a repository
- git init - initialize your repository
- git status - see what untracked files you have
- git status -s - simplified
- git add . - add all your files you want to add to your commit
- git add filename.extension - add only the file you want to track
-
- .gitignore - add the file extension you want to ignore when tracking your files
-
- git restore - restore the previous version
- git commit -m "first commit" - commit the files you added
-
- git commit -a -m - added the file and commited it
-
-
-Branching and merging
-Create a new branch
-git branch <name> a better option git checkout -b <new-branch-name> <source-branch-name>
-
-git checkout -b <name> creates a new branch and also switches from main to the new branch
-git merge <revision> merge into the current branch
-
-Remotes
-git fetch - retrieve reference from a remote
-git pull 
-git clone - download the repository from remote
-
-
-
+Git Best Practices
+- Writing clear and concise commit messages
+- Using feature branches, release branches, and hotfix branches.
+- Using feature branches, release branches, and hotfix branches.
 
 
 
