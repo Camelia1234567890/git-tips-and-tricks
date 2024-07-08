@@ -11,8 +11,8 @@ Example: git config --global user.name "Your Name" and git config --global user.
 - git --version or git --v : check the version of Git installed on your system
 - git init: Initialize a new Git repository
 - git clone: Clone an existing repository
-- git status - See what untracked files you have
-- git add filename.extension - Add only the file you want to stage
+- git status : See what untracked files you have
+- git add filename.extension : Add only the file you want to stage
 - git add: Stage all changes for the next commit
 - git commit: Commit staged changes
 - git log: Show commit logs
@@ -34,9 +34,10 @@ Example: git config --global user.name "Your Name" and git config --global user.
 - git reset: Undo commits and changes
 
 Git Best Practices
-- Writing clear and concise commit messages
-- Using feature branches, release branches, and hotfix branches.
-- Using feature branches, release branches, and hotfix branches.
+- Write clear and concise commit messages.
+- Use feature branches, release branches, and hotfix branches.
+- Commit your changes only when your logical component is completed.
+- Test your code before you commit. It helps catching bugs and errors early in the development process.
 
 
 
