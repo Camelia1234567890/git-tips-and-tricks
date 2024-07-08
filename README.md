@@ -8,8 +8,7 @@ Getting started with Git
     - git config: Set up your name and email for commits.
 Example: git config --global user.name "Your Name" and git config --global user.email "your.email@example.com"
 3. Basic Git Commands
-Your first git commands:
-git --version or git --v
+- git --version or git --v
 - git init: Initialize a new Git repository
 - git clone: Clone an existing repository
 - git status - See what untracked files you have
